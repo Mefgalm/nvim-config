@@ -71,6 +71,11 @@ lspconfig.elixirls.setup {
   cmd = { "elixir-ls" }
 }
 
+lspconfig.clojure_lsp.setup {
+  on_attach = M.on_attach,
+  capabilities = M.capabilitie
+}
+
 lspconfig.tsserver.setup {
   on_attach = M.on_attach,
   capabilities = M.capabilities,
